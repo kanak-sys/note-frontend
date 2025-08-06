@@ -1,0 +1,64 @@
+# Node modules
+node_modules/
+client/node_modules/
+
+# Build output
+dist/
+build/
+client/build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage and test outputs
+coverage/
+.nyc_output/
+jest-output/
+
+# Misc
+*.tgz
+*.swp
+
+# MongoDB dump files
+dump/
+
+# Optional: if you're using PM2
+pids/
+*.pid
+*.seed
+
+# Optional: if you're using Docker
+docker-compose.override.yml
+.docker/
+
+# Optional: if you're using Firebase or other service keys
+firebase-key.json
+service-account.json
+
+# Optional: for React/CRA temporary files
+client/.env.development
+client/.env.production
+client/.env.test
+client/.cache/
+client/.eslintcache
