@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const BASE_URL = import.meta.env.VITE_API_URL;
+const BASE_URL = 'https://note-management-2260.onrender.com'
 
 function App() {
   const [user, setUser] = useState(null);
